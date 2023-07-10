@@ -9,3 +9,7 @@ class CocoDatasetRat(CocoDataset):
 @DATASETS.register_module()
 class CocoDatasetRatOneclass(CocoDataset):
     CLASSES = ('rat',)
+
+@DATASETS.register_module()
+class CocoDatasetRatBWD(CocoDataset):
+    CLASSES = ('rat_black', 'rat_white', 'rat_dot')

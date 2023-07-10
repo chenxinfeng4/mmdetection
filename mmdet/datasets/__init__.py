@@ -26,5 +26,5 @@ __all__ = [
     'build_dataset', 'replace_ImageToTensor', 'get_loading_pipeline',
     'NumClassCheckHook', 'CocoPanopticDataset', 'MultiImageMixDataset',
     'OpenImagesDataset', 'OpenImagesChallengeDataset',
-    'CocoDatasetRat', 'CocoDatasetRatOneclass'
+    'CocoDatasetRat', 'CocoDatasetRatOneclass', 'CocoDatasetRatBWD'
 ]
