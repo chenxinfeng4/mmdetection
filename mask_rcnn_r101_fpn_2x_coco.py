@@ -1,0 +1,1 @@
+_base_ = ['configs/mask_rcnn/mask_rcnn_r101_fpn_2x_coco.py']
